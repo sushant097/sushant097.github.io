@@ -1,11 +1,12 @@
 title: Sushant Gautam # your name (or website title) here
 logo: "/images/profile_logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Machine Learning Engineer|Computer Vision Developer 
   <br><br>
-  Second description 
+  Interested on building Innovative solution with AI. 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/sushant-gautam-259bb9153/">View My LinkedIn Profile</a> 
+  <a href="https://github.com/sushant097">Github Profile</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
