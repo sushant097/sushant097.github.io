@@ -777,18 +777,16 @@ of each drug container to estimate the degradation of the drug.
     </section>
 
     <!-- Fifth Section: Blog Posts -->
-    <section id="projects" class="section scrollspy">
+    <section id="blogposts" class="section scrollspy">
       <h3 class="page-title white-text teal">Blog Posts</h3>
       <div class="container">
         <div class="row">
 
-          <div id="retainable-rss-embed"
-            data-rss="https://medium.com/feed/retainable,https://medium.com/feed/vue-mastery" data-maxcols="3"
-            data-layout="grid" data-poststyle="inline" data-readmore="Read the rest" data-buttonclass="btn btn-primary"
-            data-offset="-100"></div>
-          <!-- ************* -->
+          <div id="medium-widget"></div>
+          <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+          <script>MediumWidget.Init({ renderTo: '#medium-widget', params: { "resource": "https://medium.com/@susant", "postsPerLine": 2, "limit": 4, "picture": "big", "fields": ["description", "author", "claps", "publishAt"], "ratio": "landscape" } })</script>
+
         </div>
-      </div>
     </section>
 
     <!-- Fifth Section: Skills -->
