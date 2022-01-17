@@ -35,32 +35,32 @@
     });
     });
 
-mediumPromise.then(function()
-    {
-        //Pagination
-        pageSize = 4;
+// mediumPromise.then(function()
+//     {
+//         //Pagination
+//         pageSize = 4;
 
-        var pageCount = $(".card").length / pageSize;
+//         var pageCount = $(".card").length / pageSize;
 
-        for (var i = 0; i < pageCount; i++) {
-            $("#pagin").append(`<li class="page-item"><a class="page-link" href="#">${(i + 1)}</a></li> `);
-        }
-        $("#pagin li:nth-child(1)").addClass("active");
-        showPage = function (page) {
-            $(".card").hide();
-            $(".card").each(function (n) {
-                if (n >= pageSize * (page - 1) && n < pageSize * page)
-                    $(this).show();
-            });
-        }
+//         for (var i = 0; i < pageCount; i++) {
+//             $("#pagin").append(`<li class="page-item"><a class="page-link" href="#">${(i + 1)}</a></li> `);
+//         }
+//         $("#pagin li:nth-child(1)").addClass("active");
+//         showPage = function (page) {
+//             $(".card").hide();
+//             $(".card").each(function (n) {
+//                 if (n >= pageSize * (page - 1) && n < pageSize * page)
+//                     $(this).show();
+//             });
+//         }
 
-        showPage(1);
+//         showPage(1);
 
-        $("#pagin li").click(function () {
-            $("#pagin li").removeClass("active");
-            $(this).addClass("active");
-            showPage(parseInt($(this).text()))
-            return false;
-        });
-    });
+//         $("#pagin li").click(function () {
+//             $("#pagin li").removeClass("active");
+//             $(this).addClass("active");
+//             showPage(parseInt($(this).text()))
+//             return false;
+//         });
+//     });
 });
