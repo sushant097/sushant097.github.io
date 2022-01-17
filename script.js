@@ -5,7 +5,7 @@
     var data = {
         rss: 'https://medium.com/feed/@susant'
     };
-    $.get(' https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40sabesan96', data, function (response) {
+    $.get(' https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40susant', data, function (response) {
         if (response.status == 'ok') {
             $("#logo").append(`<img src="${response.feed["image"]}" class="rounded mx-auto d-block">`)
             var display = '';
