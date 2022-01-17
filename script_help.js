@@ -10,7 +10,7 @@
             $("#logo").append(`<img src="${response.feed["image"]}" class="rounded mx-auto d-block">`)
             var display = '';
             $.each(response.items, function (k, item) {
-                display += `<div class="card mb-3 mx-auto mr-5 " style="width: 20rem;">`;
+                display += `<div class="card mb-3 mx-auto mr-5 " style="width: 20rem; display:inline">`;
                 var src = item["thumbnail"]; // use thumbnail url
                 display += `<img src="${src}" class="card-img-top" alt="Cover image">`;
                 display += `<div class="card-body">`;
