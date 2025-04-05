@@ -1,7 +1,7 @@
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
 
-> https://sushant097.github.io/
+> [https://sushant097.github.io/](https://www.sushantgautam.com/)
 
 ![GitHub stars](https://img.shields.io/github/stars/sushant097/Handwritten-Line-Text-Recognition-using-Deep-Learning-with-Tensorflow) 
 ![GitHub forks](https://img.shields.io/github/forks/sushant097/Handwritten-Line-Text-Recognition-using-Deep-Learning-with-Tensorflow)
@@ -9,7 +9,6 @@
 [![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://sushant097.github.io)
 [![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/susan-gautam/)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
 ### Website Preview
 <p align="center"> 
   <kbd>
