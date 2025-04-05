@@ -15,6 +15,110 @@
   border-radius: 50% !important;
 }
 
+
+
+
+/* Social icon styles */
+.icon-btn {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  margin: 5px;
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 42px;
+  text-align: center;
+  background: #fff;
+  color: #000;
+}
+
+/* Left spacing so it doesn't touch nav */
+#intro .container {
+  padding-left: 60px;
+  padding-right: 20px;
+}
+
+/* Intro Buttons */
+.intro-btn {
+  margin: 5px;
+  min-width: 150px;
+}
+
+/* Mobile-specific changes */
+@media only screen and (max-width: 600px) {
+  #intro .container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .intro-btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .caption h2 {
+    font-size: 1.8rem;
+  }
+
+  .caption h5 {
+    font-size: 1.3rem;
+  }
+}
+
+
+/* typing js : Terminal box */
+.terminal-box {
+  background-color: #1e1e1e;
+  border-left: 4px solid #4CAF50;
+  padding: 15px 20px;
+  margin: 30px 10px;
+  max-width: 95%;
+  border-radius: 6px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #00ff00;
+  overflow-x: auto;
+  box-shadow: 0 0 10px rgba(0,255,0,0.2);
+}
+
+.terminal-content {
+  font-size: clamp(12px, 4vw, 16px);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 1s step-end infinite;
+}
+
+.prompt {
+  font-weight: bold;
+  color: #00ff00;
+}
+@media only screen and (max-width: 600px) {
+  .terminal-content {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .terminal-box {
+    padding: 10px 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 .profile-pic img {
   width: 100%;
   height: auto;
