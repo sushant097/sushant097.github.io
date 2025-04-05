@@ -974,4 +974,103 @@ small {
   #intro .container {
     padding-bottom: 0 !important;
   }
+
+  
+  .terminal-box {
+      margin: 20px 0;
+      padding: 10px 12px;
+      max-width: 100%;
+      font-size: 12px;
+  }
+  
+  .terminal-content {
+      font-size: 12px;
+      padding: 0;
+  }
+  
+  
+  
 }
+
+#intro .container {
+  padding: 0 20px;
+}
+
+.caption,
+#intro .container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Circle button base */
+.icon-btn {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 6px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  background-color: #ccc; /* fallback */
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Icon inside */
+.icon-btn i {
+  font-size: 22px;
+}
+
+/* Hover effect */
+.icon-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+
+/* Specific brand background colors */
+.icon-btn.linkedin {
+  background-color: #0077b5;
+}
+
+.icon-btn.github {
+  background-color: #181717;
+}
+
+.icon-btn.stackoverflow {
+  background-color: #f48024;
+}
+
+.icon-btn.medium {
+  background-color: #12100e;
+}
+
+/* Optional: Keep icons white inside */
+.icon-btn i {
+  color: white !important;
+}
+
+/* Mobile tweaks */
+@media only screen and (max-width: 600px) {
+  .icon-btn {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    margin: 4px 8px 4px 0;
+  }
+
+  .icon-btn i {
+    font-size: 18px;
+  }
+
+  .left-align-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+
+
