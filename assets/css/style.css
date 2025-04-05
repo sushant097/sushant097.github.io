@@ -46,25 +46,144 @@
 
 /* Mobile-specific changes */
 @media only screen and (max-width: 600px) {
-  #intro .container {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-
-  .intro-btn {
-    display: block;
-    width: 100%;
-    margin: 10px 0;
-  }
-
-  .caption h2 {
-    font-size: 1.8rem;
-  }
-
   .caption h5 {
-    font-size: 1.3rem;
+    font-size: 1rem;
+    line-height: 1.5em;
+  }
+
+  .note blockquote p,
+  .blockquote p {
+    font-size: 0.9rem !important;
+  }
+
+  .blockquote-footer p {
+    font-size: 0.8rem !important;
+    margin-top: 0.5rem;
+  }
+
+  .terminal-box {
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  .icon-btn i {
+    font-size: 18px !important;
+    margin: 0 6px;
+  }
+
+  .row.valign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row.valign.social-icons {
+    flex-direction: row !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .icon-btn {
+    margin: 6px;
+  }
+  
+
+
+
+  .caption {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .section-padding {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .row.valign.social-icons.left-align-icons {
+      flex-direction: row !important;
+      justify-content: flex-start !important;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  
+    .left-align-icons .icon-btn {
+      margin: 6px 8px 6px 0;
+    }
+  }
+  
+}
+
+/* ========== Left Align Common Section Fixes ========== */
+
+.left-align {
+  text-align: left !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
+
+/* Blockquote responsiveness */
+@media only screen and (max-width: 600px) {
+  .note.note-primary {
+    padding: 1rem !important;
+  }
+
+  .note blockquote p,
+  .blockquote p {
+    font-size: 0.9rem !important;
+  }
+
+  .blockquote-footer p {
+    font-size: 0.8rem !important;
+    margin-top: 0.5rem;
+  }
+
+  .left-align .blockquote,
+  .left-align .blockquote-footer {
+    text-align: left;
   }
 }
+
+
+/* Social Icons Responsive Left-Align */
+@media only screen and (max-width: 600px) {
+  .left-align-icons {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+    align-items: center;
+    text-align: left !important;
+    margin-left: 0 !important;
+  }
+
+  .left-align-icons .icon-btn {
+    font-size: 20px !important;
+    margin: 6px 10px 6px 0 !important;
+  }
+}
+
+
+/* Intro buttons left aligned */
+@media only screen and (max-width: 600px) {
+  .intro-btn {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    text-align: left !important;
+  }
+
+  .left-align .intro-btn {
+    text-align: left !important;
+    margin-left: 0;
+  }
+
+  .left-align {
+    text-align: left !important;
+    justify-content: flex-start !important;
+  }
+}
+
+
 
 
 /* typing js : Terminal box */
@@ -259,7 +378,7 @@ a {
 } */
 
 blockquote {
-  border-left: 5px solid #795548;
+  border-left: 3px solid #795548;
   color: #795548;
   font-size: 125%;
   font-weight: 400;
@@ -435,6 +554,8 @@ h3 {
   position: absolute;
   top: 0;
 }
+
+
 
 /* #intro.section .container *:not(span) {
   font-weight: 300;
@@ -799,3 +920,58 @@ small {
 
 
 
+/* newly added */
+
+@media only screen and (max-width: 600px) {
+  .caption h5 {
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin-bottom: 10px !important;
+  }
+
+  .note.note-primary {
+    padding: 8px 12px !important;
+    margin: 6px 0 4px 0 !important;
+  }
+
+  .note blockquote p,
+  .blockquote p {
+    font-size: 0.9rem !important;
+    margin: 0 !important;
+    line-height: 1.4;
+  }
+
+  .blockquote-footer p {
+    font-size: 0.8rem !important;
+    margin: 4px 0 0 0 !important;
+  }
+
+  .social-icons {
+    margin: 4px 0 2px 0 !important;
+    padding: 0 !important;
+  }
+
+  .social-icons .icon-btn {
+    margin: 4px 6px 0 0 !important;
+  }
+
+  .left-align {
+    margin-top: 4px !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .intro-btn {
+    margin: 4px 8px 0 0 !important;
+    padding: 8px 14px !important;
+  }
+
+  .content.section-padding {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  #intro .container {
+    padding-bottom: 0 !important;
+  }
+}
