@@ -151,7 +151,7 @@
 
         <!-- Resume disabled now! -->
         <a aria-label="Open Sushant's resume in a new tab"
-          href="./assets/resume/SushantResumeMLEngineer.pdf" target="_blank"
+          href="/assets/resume/Resume-March-2025-Updated.pdf" target="_blank"
           class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
     </ul>
@@ -207,7 +207,7 @@
       </li>
     </ul>
   </nav>
-
+ 
   <!-- Main Content-->
   <main>
     <!-- First Section: Heading lines and image -->
@@ -215,60 +215,61 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption">
-              <h2>Hi, I'm <span class="teal">Sushant Gautam.</span></h2>
-              <!-- <h5 style="color:#fff"> <span class="typing" style="font-weight: 300; color:#004d40"></span></h5> -->
-              <h5> <span class="typing" style="font-weight: 400; color:#fff"></span></h5>
-              <h5>As a dedicated Computer Science graduate student with a focus on Machine Learning and Data Science, I am seeking an
-                internship/full-time machine learning engineer position where I can leverage my expertise in Machine Learning, Deep Learning, Computer Vision, and AWS Cloud
-                technologies. My goal is to apply my theoretical knowledge and innovative ideas to challenging projects, thereby gaining
-                invaluable hands-on experience.</h5>
-              <div class="row d-flex justify-content-center align-items-center h-100">
-                <figure class="note note-primary p-4">
-                  <blockquote class="blockquote">
-                    <p class="pb-2">
-                      The only way to do great work is to love what you do.
-                    </p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer mb-0">
-                    <p> – Steve Jobs</p>
-                  </figcaption>
-                </figure>
+          <div class="content section-padding valign-wrapper" style="height: 100vh; padding-top: 0; margin: 0;">
+            <div class="container" style="padding-left: 60px; padding-right: 20px;">
+              <div class="caption left-align">
+                <!-- <h2>Hi, I'm <span class="teal">Sushant Gautam.</span></h2> -->
+                <div class="terminal-box">
+                  <pre id="terminal" class="terminal-content"></pre>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                <!-- <h5><span class="typing" style="font-weight: 400; color:#fff"></span></h5> -->
+                <h5>
+                  I am a Computer Science graduate student specializing in Machine Learning, Deep Learning, and Computer Vision, with strong expertise in AWS Cloud technologies. I am currently seeking a full-time opportunity as a Machine Learning Engineer to apply my academic foundation, practical skills, and innovative mindset to real-world challenges. In Summer 2025, I will be interning at Amazon as a Software Development Engineer Intern, where I look forward to deepening my industry experience and contributing to impactful solutions.
+                </h5>
+                
+    
+                <!-- Quote -->
+                <div class="row valign">
+                  <figure class="note note-primary p-4">
+                    <blockquote class="blockquote">
+                      <p class="pb-2">The only way to do great work is to love what you do.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer mb-0">
+                      <p>– Steve Jobs</p>
+                    </figcaption>
+                  </figure>
+                </div>
+    
+                <!-- Social Icons -->
+                <div class="row valign" style="margin-top: 10px;">
+                  <a href="https://www.linkedin.com/in/susan-gautam/" target="_blank" class="icon-btn linkedin"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://github.com/sushant097/" target="_blank" class="icon-btn github"><i class="fa fa-github"></i></a>
+                  <a href="https://stackoverflow.com/users/7338066/susan097" target="_blank" class="icon-btn stackoverflow"><i class="fa fa-stack-overflow" style="color:red"></i></a>
+                  <a href="https://medium.com/@sushantgautm" target="_blank" class="icon-btn medium"><i class="fa fa-medium"></i></a>
+                </div>
+    
+                <!-- Buttons -->
+                <div class="row valign">
+                  <a href="#about" class="btn teal lighten-1 z-depth-2 intro-btn">Read More</a>
+                  <a href="#contact" class="btn teal lighten-1 z-depth-2 intro-btn">Contact Me</a>
+                </div>
               </div>
-            </div>
-            <div class="social">
-              <a href="https://www.linkedin.com/in/susan-gautam/" target="_blank">
-                <button class="icon-btn linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </button>
-              </a>
-              <a href="https://github.com/sushant097/" target="_blank">
-                <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
-                </button>
-              </a>
-
-              <a href="https://stackoverflow.com/users/7338066/susan097" target="_blank">
-                <button class="icon-btn stackoverflow">
-                <i class="fa fa-stack-overflow" style="color:red"></i>
-                </button>
-              </a>
-
-              <a href="https://medium.com/@sushantgautm" target="_blank">
-                <button class=" icon-btn medium">
-                  <i class="fa fa-medium"></i>
-                </button>
-              </a>
-            </div>
-            <div class='buttons'>
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
             </div>
           </div>
         </div>
       </div>
     </section>
+    
+
+
+   
 
     <!-- Second Section: About -->
     <section id="about" class="section scrollspy">
@@ -1444,14 +1445,66 @@
 
 <!-- typed.js -->
 <script src="assets/vendor/typed.js/typed.min.js"></script>
-<script type="text/javascript">
-  var typed = new Typed('.typing', {
-    strings: ["CS Graduate", "MlOps Engineer"],
-    loop: true,
-    typeSpeed: 80,
-    backSpeed: 40
-  });
+<script>
+  const terminal = document.getElementById('terminal');
+
+  function simulateBoot() {
+    const bootLines = [
+      "Booting SushantOS...",
+      "Initializing modules...",
+      "Starting portfolio terminal..."
+    ];
+
+    bootLines.forEach((line, index) => {
+      setTimeout(() => {
+        const div = document.createElement('div');
+        div.textContent = line;
+        div.classList.add('boot-line');
+        terminal.appendChild(div);
+      }, index * 800);
+    });
+
+    // After boot lines, clear terminal and start main prompt
+    setTimeout(() => {
+      terminal.innerHTML = "";  // clear boot lines
+
+      // Line 1
+      const introLine = document.createElement('div');
+      introLine.innerHTML = `<span class="prompt">sushant@portfolio:~$</span> echo 'Hi, I'm Sushant Gautam'`;
+      terminal.appendChild(introLine);
+
+      // Line 2 with typing
+      const typingLine = document.createElement('div');
+      typingLine.innerHTML = `<span class="prompt">sushant@portfolio:~$ </span><span class="typing"></span><span class="cursor">█</span>`;
+      terminal.appendChild(typingLine);
+
+      // Start typed animation
+      new Typed(".typing", {
+        strings: [
+          "echo 'MLOps Engineer | Computer Vision 📸'",
+          "echo 'Running on Python + Coffee ☕🐍'",
+          "echo 'Ctrl+C my skills. Ctrl+V into your team. 🚀'",
+          "echo 'sudo apt-get install --yes innovation 💡'",
+          "echo 'pip install --upgrade hustle 🔥'",
+          "echo 'System uptime: 7+ years of coding 🧠'",
+          "echo 'cat ~/dreams | grep \"Building the future\" 💻'"
+
+        ],
+        typeSpeed: 50,
+        backSpeed: 30,
+        backDelay: 1200,
+        loop: true,
+        showCursor: false
+      });
+
+    }, 2600); // Wait before clearing
+  }
+
+  simulateBoot();
 </script>
+
+
+
 </body>
 
 </html>
