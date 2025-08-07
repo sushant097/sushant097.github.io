@@ -3,8 +3,7 @@
 
 > [https://sushant097.github.io/](https://www.sushantgautam.com/)
 
-![GitHub stars](https://img.shields.io/github/stars/sushant097/Handwritten-Line-Text-Recognition-using-Deep-Learning-with-Tensorflow) 
-![GitHub forks](https://img.shields.io/github/forks/sushant097/Handwritten-Line-Text-Recognition-using-Deep-Learning-with-Tensorflow)
+
 [![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/sushant097/sushant097.github.io//commits/master)
 [![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://sushant097.github.io)
 [![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/susan-gautam/)
