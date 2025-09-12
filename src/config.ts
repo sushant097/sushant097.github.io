@@ -10,7 +10,7 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "AI/ML engineer and ex-SDE Intern at AWS. I build agentic AI systems end to end—data pipelines, model training and evaluation, and production deployment on AWS. I’ve shipped computer vision and LLM/RAG projects in healthcare and autonomy, and I care about scalability, observability, and cost. I like turning messy logs and research papers into simple, useful products. Currently exploring robust AI agents, evaluation harnesses, and scalable MLOps on AWS. I’m also seeking a full-time role where I can build and ship reliable AI.",
+    "AI/ML engineer and ex-AWS SDE intern who ships agentic AI systems from data pipelines to training/eval to production on AWS. I’ve delivered CV and LLM/RAG features in healthcare and autonomy, and I obsess over scalability, observability, and cost. I turn messy logs and research into simple, useful products—and I'm actively open to full-time roles.",
 
   skills: [
     "Python", "PyTorch", "TensorFlow", "Scikit-learn",
@@ -27,7 +27,14 @@ export const siteConfig = {
       description:
         "Interactive Streamlit app that analyzes stocks, researches companies, and generates personalized investment reports using real-time Yahoo Finance data and AI agents.",
       link: "https://github.com/sushant097/ai-stock-advisor",
-      skills: ["Agentic AI", "LLMs", "Gemini", "Python", "yfinance", "Streamlit"]
+      skills: ["Agentic AI", "LLMs", "Gemini", "Python", "yfinance"]
+    },
+    {
+      name: "🧩⚡ TabGist — Chrome Summarizer Extension",
+      description:
+        "Local-first Chrome MV3 extension + FastAPI server that summarizes web pages and YouTube transcripts into clean, print-ready notes—with optional Gemini for higher-quality output and translation.",
+      link: "https://github.com/sushant097/tabgist-chrome",
+      skills: ["FastAPI", "Python", "LLMs", "Gemini", "JavaScript"]
     },
     {
       name: "🩺 Medical RAG Chatbot",
