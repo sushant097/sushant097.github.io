@@ -23,6 +23,13 @@ export const siteConfig = {
 
   projects: [
     {
+      name: "📈🤖 AI Stock Advisor",
+      description:
+        "Interactive Streamlit app that analyzes stocks, researches companies, and generates personalized investment reports using real-time Yahoo Finance data and AI agents.",
+      link: "https://github.com/sushant097/ai-stock-advisor",
+      skills: ["Agentic AI", "LLMs", "Gemini", "Python", "yfinance", "Streamlit"]
+    },
+    {
       name: "🩺 Medical RAG Chatbot",
       description:
         "A Retrieval-Augmented Generation (RAG) medical chatbot that answers user queries using a curated medical knowledge base. Combines LLMs with vector search (LangChain + Pinecone) to deliver grounded, context-aware answers instead of relying purely on model memory. Demonstrates end-to-end AI: data ingestion, embeddings, retrieval, UI (Flask), and AWS CI/CD deployment.",
