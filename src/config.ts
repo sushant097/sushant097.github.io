@@ -10,7 +10,7 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "AI/ML engineer and ex-AWS SDE intern who ships agentic AI systems from data pipelines to training/eval to production on AWS. I’ve delivered CV and LLM/RAG features in healthcare and autonomy, and I obsess over scalability, observability, and cost. I turn messy logs and research into simple, useful products—and I'm actively open to full-time roles.",
+    "AI/ML engineer and ex-AWS SDE intern who ships agentic AI systems from data pipelines to training/eval to production on AWS/GCP. I've delivered CV and LLM/RAG features in healthcare and autonomy, and I obsess over scalability, interesting AI application. I turn messy logs and research into simple, useful products. Also, actively open to full-time roles.",
 
   skills: [
     "Python", "PyTorch", "TensorFlow", "Scikit-learn",
