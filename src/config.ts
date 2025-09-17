@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Sushant Gautam",
-  title: "AI/ML Engineer • Building AI Agents",
+  title: "Software Engineer | MLOps | Gen AI",
   description: "Portfolio of Sushant Gautam — AI/ML Engineer focused on agentic systems, MLOps, and scalable deployments.",
   accentColor: "#008073",
   social: {
@@ -10,73 +10,73 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "AI/ML engineer and ex-AWS SDE intern who ships agentic AI systems from data pipelines to training/eval to production on AWS/GCP. I've delivered CV and LLM/RAG features in healthcare and autonomy, and I obsess over scalability, interesting AI application. I turn messy logs and research into simple, useful products. Also, actively open to full-time roles.",
+     "AI/ML engineer passionate about building agentic systems and deploying scalable solutions on AWS/GCP. Experienced in LLMs, RAG, LangChain, and MLOps (Docker, Kubernetes, CI/CD), with a strong background in computer vision and deep learning. I thrive on solving real-world problems and delivering reliable AI products from data pipelines to production. Open to full-time opportunities in AI/ML engineering, MLOps, or applied research.",
 
   skills: [
-    "Python", "PyTorch", "TensorFlow", "Scikit-learn",
-    "LLMs", "RAG", "Agentic AI", "LangChain", "LLMOps",
-    "Computer Vision", "GANs", "Diffusion Models",
-    "MLOps", "Docker", "Kubernetes", "MLflow", "DVC",
-    "Airflow", "Kafka", "PySpark", "AWS", "GCP", "CI/CD",
-    "Next.js", "TypeScript", "FastAPI", "SQL"
+    "Python", "Java", "C++", "CUDA", "AutoML", "TypeScript", "Next.js", "FastAPI", "SQL",
+    "PyTorch", "TensorFlow", "Scikit-learn", "Computer Vision", "GANs", "Diffusion Models",
+    "LLMs", "GenAI", "RAG", "Agentic AI", "LangChain", "LLMOps", "Hugging Face",
+    "MLOps", "Docker", "Kubernetes", "MLflow", "DVC", "Airflow", "Kafka", "PySpark",
+    "AWS", "GCP", "CI/CD", "Jenkins", "Prometheus", "Grafana",
+    "Cassandra", "ROS2", "Git", "Linux", "Data Engineering"
   ],
 
   projects: [
     {
       name: "📈🤖 AI Stock Advisor",
       description:
-        "Interactive Streamlit app that analyzes stocks, researches companies, and generates personalized investment reports using real-time Yahoo Finance data and AI agents.",
+        "Streamlit-powered app for real-time stock analysis and company research. Integrates Yahoo Finance data, LLM agents, and Gemini for personalized investment reports and actionable insights.",
       link: "https://github.com/sushant097/ai-stock-advisor",
-      skills: ["Agentic AI", "LLMs", "Gemini", "Python", "yfinance"]
+      skills: ["Python", "Streamlit", "LLMs", "Gemini", "Agentic AI", "yfinance", "Data Engineering", "Prompt Engineering"]
     },
     {
       name: "🧩⚡ TabGist — Chrome Summarizer Extension",
       description:
-        "Local-first Chrome MV3 extension + FastAPI server that summarizes web pages and YouTube transcripts into clean, print-ready notes—with optional Gemini for higher-quality output and translation.",
+        "Chrome MV3 extension with FastAPI backend for summarizing web pages and YouTube transcripts into concise, print-ready notes. Features local-first processing, Gemini-powered output, and multi-language support.",
       link: "https://github.com/sushant097/tabgist-chrome",
-      skills: ["FastAPI", "Python", "LLMs", "Gemini", "JavaScript"]
+      skills: ["JavaScript", "Chrome Extension", "FastAPI", "Python", "LLMs", "Gemini", "NLP", "REST APIs"]
     },
     {
       name: "🩺 Medical RAG Chatbot",
       description:
-        "A Retrieval-Augmented Generation (RAG) medical chatbot that answers user queries using a curated medical knowledge base. Combines LLMs with vector search (LangChain + Pinecone) to deliver grounded, context-aware answers instead of relying purely on model memory. Demonstrates end-to-end AI: data ingestion, embeddings, retrieval, UI (Flask), and AWS CI/CD deployment.",
+        "End-to-end Retrieval-Augmented Generation chatbot for medical Q&A. Uses LLMs, LangChain, and Pinecone for vector search over curated medical data, with Flask UI and AWS CI/CD deployment. Delivers context-grounded, reliable answers.",
       link: "https://github.com/sushant097/medical-rag-chatbot/",
-      skills: ["LangChain", "Pinecone", "CI/CD", "AWS", "LLMs", "RAG"],
+      skills: ["Python", "LLMs", "RAG", "LangChain", "Pinecone", "Flask", "Vector Search", "Embeddings", "AWS", "CI/CD"]
     },
     {
       name: "End-to-End MLOps: Image Classification",
       description:
-        "Production-style ML pipeline with training, evaluation, CI/CD, and deployment on AWS SageMaker.",
+        "Robust ML pipeline for image classification: data ingestion, training, evaluation, and automated CI/CD deployment on AWS SageMaker. Includes MLflow tracking and DVC for reproducibility.",
       link: "https://github.com/sushant097/ML-Interview-Preparation/tree/master/ML-Interview-Preparation/MlOps-Project/End-to-End-Mlops-Image-Classification-Project",
-      skills: ["Python", "PyTorch", "SageMaker", "MLflow", "DVC", "AWS"]
+      skills: ["Python", "PyTorch", "SageMaker", "MLflow", "DVC", "AWS", "MLOps", "CI/CD", "Data Engineering"]
     },
     {
       name: "Real-Time Data Streaming Pipelines",
       description:
-        "Ingest, transform, and serve streams using Airflow, Kafka, PySpark, Docker, and Cassandra.",
+        "Scalable pipelines for real-time data ingestion, transformation, and serving. Built with Airflow orchestration, Kafka streaming, PySpark processing, Docker containers, and Cassandra storage.",
       link: "https://github.com/sushant097/ML-Interview-Preparation/tree/master/ML-Interview-Preparation/MlOps-Project/End-to-End-Data-Streaming",
-      skills: ["Airflow", "Kafka", "PySpark", "Cassandra", "Docker"]
+      skills: ["Python", "Airflow", "Kafka", "PySpark", "Docker", "Cassandra", "Data Engineering", "Streaming"]
     },
     {
       name: "Self-Driving Car (End-to-End DL)",
       description:
-        "Minimal autonomous driving stack: steering angle prediction from front-camera frames.",
+        "Autonomous driving stack for steering angle prediction using deep learning on front-camera frames. Includes data preprocessing, model training, and real-time inference with OpenCV.",
       link: "https://github.com/sushant097/Self-Driving-Car-Projects",
-      skills: ["PyTorch", "Computer Vision", "OpenCV"]
+      skills: ["Python", "PyTorch", "Computer Vision", "OpenCV", "Deep Learning", "Autonomous Vehicles"]
     },
     {
       name: "Handwritten Line Text Recognition (OCR)",
       description:
-        "CRNN (CNN+LSTM+CTC) OCR achieving low CER on IAM; data aug + real-time demo.",
+        "Handwritten text recognition using CRNN (CNN+LSTM+CTC) architecture. Achieved low CER on IAM dataset with advanced data augmentation and real-time demo interface.",
       link: "https://github.com/sushant097/Handwritten-Line-Text-Recognition-using-Deep-Learning-with-Tensorflow",
-      skills: ["TensorFlow", "OCR", "Computer Vision"]
+      skills: ["Python", "TensorFlow", "OCR", "Computer Vision", "Deep Learning", "Data Augmentation"]
     },
     {
       name: "ROS2 Autonomous Tractor",
       description:
-        "Sensor fusion with LIDAR, GPS, and RGB-D; control stack for autonomous navigation.",
+        "Autonomous tractor navigation using sensor fusion (LIDAR, GPS, RGB-D) and ROS2. Developed control stack for real-time perception, localization, and path planning in outdoor environments.",
       link: "https://github.com/sushant097/Ros2-Autonomous-Tractor",
-      skills: ["ROS2", "Perception", "Controls"]
+      skills: ["Python", "ROS2", "Sensor Fusion", "Perception", "Controls", "Localization", "Path Planning"]
     }
   ],
 
