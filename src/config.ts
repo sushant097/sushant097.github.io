@@ -10,7 +10,7 @@ export const siteConfig = {
   },
 
   aboutMe:
-     "AI/ML engineer passionate about building agentic systems and deploying scalable solutions on AWS/GCP. Experienced in LLMs, RAG, LangChain, and MLOps (Docker, Kubernetes, CI/CD), with a strong background in computer vision and deep learning. I thrive on solving real-world problems and delivering reliable AI products from data pipelines to production. Open to full-time opportunities in AI/ML engineering, MLOps, or applied research.",
+    "Software Engineer with a passion for building intelligent and generative AI systems that scale. Experienced in LLMs, RAG, LangChain, and MLOps (Docker, Kubernetes, CI/CD), with deep expertise in computer vision, deep learning, and cloud deployments. I enjoy architecting robust data pipelines, optimizing models, and delivering reliable AI products that solve real-world problems. Open to full-time roles in software engineering, AI/ML or MLOps.",
 
   skills: [
     "Python", "Java", "C++", "CUDA", "AutoML", "TypeScript", "Next.js", "FastAPI", "SQL",
