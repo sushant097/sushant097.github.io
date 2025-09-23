@@ -131,14 +131,14 @@ export const siteConfig = {
         "President, CSE AI Club; organized GenAI workshops and hackathons"
       ]
     },
-    {
-      school: "Tribhuvan University",
-      degree: "B.E. in Computer Engineering, GPA 4.0",
-      dateRange: "2015 – 2019",
-      achievements: [
-        "Graduated with distinction; merit scholarship",
-        "Competitions & research projects in CV/ML"
-      ]
-    }
+    // {
+    //   school: "Tribhuvan University",
+    //   degree: "B.E. in Computer Engineering, GPA 4.0",
+    //   dateRange: "2015 – 2019",
+    //   achievements: [
+    //     "Graduated with distinction; merit scholarship",
+    //     "Competitions & research projects in CV/ML"
+    //   ]
+    // }
   ]
 } as const;
