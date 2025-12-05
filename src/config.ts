@@ -23,25 +23,25 @@ export const siteConfig = {
 
   projects: [
     {
+      name: "🧩 Cognitive-Reflex-Agent",
+      description:
+        "A 'Code Interpreter' style agent that answers queries by writing and executing Python code in a secure sandbox—similar to OpenAI's Advanced Data Analysis. Features a 'System 1' semantic cache to instantly recall past successful code executions, optimizing for both speed and cost.",
+      link: "https://github.com/sushant097/Cognitive-Reflex-Agent",
+      skills: [
+        "Code Interpreter Pattern",   // The agent design pattern
+        "Secure Runtime Sandboxing",   // The security engineering skill
+        "Model Context Protocol (MCP)",// The tool standard
+        "Semantic Caching",            // The "System 1" memory skill
+        "Agentic Design Patterns",     // The architecture skill
+        "Gemini 2.0 / Ollama"          // The AI models
+      ]
+    },
+    {
       name: "🧠 Context-Aware RAG Memory",
       description:
         "Persistent semantic memory system that learns from web reading. Uses hybrid temporal-semantic retrieval to recall exact snippets, integrated with a Chrome extension for highlight-on-recall.",
       link: "https://github.com/sushant097/RAG-Memory-Context-Aware-AI-Agent",
       skills: ["FastAPI", "Gemini 2.0 Flash/Ollama", "FAISS Vector Store", "MCP Tools", "MarkItDown", "Chrome MV3", "Local/Cloud Embeddings"]
-    },
-    {
-      name: "🧩 Hybrid Agent Planner",
-      description:
-        "High-reliability agent prioritizing correctness. Fuses LLM reasoning with heuristic guardrails and secure Python sandboxing. Features a Jaccard-based semantic cache to instantly recall historical answers, bypassing the planning loop for recurring queries.",
-      link: "https://github.com/sushant097/Hybrid-Agent-Planner",
-      skills: ["Gemini 2.0 / Ollama", "MultiMCP Dispatcher", "Jaccard Semantic Cache", "Dynamic Python Planning", "Heuristic Guardrails", "Runtime Sandbox"]
-    },
-    {
-      name: "🤖 LLM Agents: External APIs & RAG",
-      description:
-        "Cortex-style agentic framework bridging LLMs to the real world. Orchestrates a Perceive → Plan → Act loop using MCP to manipulate Google Sheets, Gmail, and Web Search via a Telegram gateway.",
-      link: "https://github.com/sushant097/LLM-Agents-External-APIs",
-      skills: ["Gemini 2.0 Flash", "MCP (Stdio/SSE)", "Google OAuth 2.0", "Trafilatura", "MarkItDown", "FAISS", "Telegram Bot API"]
     },
     {
       name: "📈🤖 AI Stock Advisor",
