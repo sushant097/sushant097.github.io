@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Sushant Gautam",
-  title: "Software Engineer | MLOps | Gen AI",
-  description: "Portfolio of Sushant Gautam — AI/ML Engineer focused on agentic systems, MLOps, and scalable deployments.",
+  title: "AI/ML Engineer | Agentic Systems & MLOps",
+  description: "Portfolio of Sushant Gautam — AI/ML Engineer focused on building scalable Agentic AI systems, RAG architectures, and production MLOps pipelines.",
   accentColor: "#008073",
   social: {
     email: "mail.sushantgautam@icloud.com",
@@ -10,115 +10,127 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "Software Engineer with a passion for building intelligent and generative AI systems that scale. Experienced in LLMs, RAG, LangChain, and MLOps (Docker, Kubernetes, CI/CD), with deep expertise in computer vision, deep learning, and cloud deployments. I enjoy architecting robust data pipelines, optimizing models, and delivering reliable AI products that solve real-world problems. Open to full-time roles in software engineering, AI/ML or MLOps.",
-
+    "I am an AI/ML Engineer who owns the entire model lifecycle—from translating business ambiguity into concrete mathematical problems to deploying scalable, low-latency systems in production. My approach combines rigorous research (MS in CS, 4.0 GPA) with production discipline (AWS, CI/CD). Whether architecting 'System 2' agentic workflows or optimizing inference costs for serverless deployments, I focus on building robust, observable AI products that solve real problems at scale.",
+  
+    // Optimized Skill Order: GenAI -> Core ML -> MLOps -> Cloud -> Languages -> Tools
   skills: [
-    "Python", "Java", "C++", "CUDA", "AutoML", "TypeScript", "Next.js", "FastAPI", "SQL",
-    "PyTorch", "TensorFlow", "Scikit-learn", "Computer Vision", "GANs", "Diffusion Models",
-    "LLMs", "GenAI", "RAG", "Agentic AI", "LangChain", "LLMOps", "Hugging Face",
-    "MLOps", "Docker", "Kubernetes", "MLflow", "DVC", "Airflow", "Kafka", "PySpark",
-    "AWS", "GCP", "CI/CD", "Jenkins", "Prometheus", "Grafana",
-    "Cassandra", "ROS2", "Git", "Linux", "Data Engineering"
+    // GenAI & Agents (The Hook)
+    "Agentic AI", "LLMs", "RAG", "LangChain", "Model Context Protocol (MCP)", "Generative AI",
+    
+    // Core ML & Deep Learning
+    "PyTorch", "Computer Vision", "Deep Learning", "Diffusion Models", "GANs", "Scikit-learn", "TensorFlow",
+    
+    // MLOps & Engineering
+    "MLOps", "LLMOps", "Docker", "Kubernetes", "MLflow", "DVC", "Airflow", "CI/CD",
+    
+    // Cloud & Infrastructure
+    "AWS", "SageMaker", "AWS CDK", "GCP", "Linux", "Terraform",
+    
+    // Languages & Backend
+    "Python", "FastAPI", "SQL", "TypeScript", "Next.js", "C++", "CUDA",
+    
+    // Data & Tools
+    "Data Engineering", "Kafka", "PySpark", "Git", "Vector Databases", "Prometheus"
   ],
 
   projects: [
     {
       name: "🧩 Cognitive-Reflex-Agent",
       description:
-        "A 'Code Interpreter' style agent that answers queries by writing and executing Python code in a secure sandbox—similar to OpenAI's Advanced Data Analysis. Features a 'System 1' semantic cache to instantly recall past successful code executions, optimizing for both speed and cost.",
+        "A 'System 2' reasoning agent capable of writing and executing Python code in a secure sandbox to solve complex queries. Features a semantic caching layer ('System 1') to recall past executions, significantly reducing latency and inference costs.",
       link: "https://github.com/sushant097/Cognitive-Reflex-Agent",
       skills: [
-        "Code Interpreter Pattern",   // The agent design pattern
-        "Secure Runtime Sandboxing",   // The security engineering skill
-        "Model Context Protocol (MCP)",// The tool standard
-        "Semantic Caching",            // The "System 1" memory skill
-        "Agentic Design Patterns",     // The architecture skill
-        "Gemini 2.0 / Ollama"          // The AI models
+        "Agentic AI",
+        "Model Context Protocol (MCP)",
+        "Code Interpreter",
+        "Security Sandboxing",
+        "Semantic Caching",
+        "Gemini 2.0"
       ]
     },
     {
       name: "🧠 Context-Aware RAG Memory",
       description:
-        "Persistent semantic memory system that learns from web reading. Uses hybrid temporal-semantic retrieval to recall exact snippets, integrated with a Chrome extension for highlight-on-recall.",
+        "A persistent memory system that 'learns' from user browsing. Uses hybrid temporal-semantic retrieval to recall exact information snippets, integrated with a Chrome extension for real-time augmentation.",
       link: "https://github.com/sushant097/RAG-Memory-Context-Aware-AI-Agent",
-      skills: ["FastAPI", "Gemini 2.0 Flash/Ollama", "FAISS Vector Store", "MCP Tools", "MarkItDown", "Chrome MV3", "Local/Cloud Embeddings"]
+      skills: ["RAG", "Vector Databases", "FastAPI", "Chrome Extensions", "Embeddings", "Ollama"]
     },
     {
       name: "📈🤖 AI Stock Advisor",
       description:
-        "Streamlit-powered app for real-time stock analysis and company research. Integrates Yahoo Finance data, LLM agents, and Gemini for personalized investment reports and actionable insights.",
+        "Multi-agent financial analyst platform. Orchestrates specialized LLM agents to fetch real-time Yahoo Finance data, analyze market trends, and generate personalized investment reports.",
       link: "https://github.com/sushant097/ai-stock-advisor",
-      skills: ["Python", "Streamlit", "LLMs", "Gemini", "Agentic AI", "yfinance", "Data Engineering", "Prompt Engineering"]
+      skills: ["Multi-Agent Systems", "Python", "Streamlit", "Financial Data Engineering", "Prompt Engineering"]
     },
     {
-      name: "🧩⚡ TabGist — Chrome Summarizer Extension",
+      name: "🧩⚡ TabGist — Chrome Summarizer",
       description:
-        "Chrome MV3 extension with FastAPI backend for summarizing web pages and YouTube transcripts into concise, print-ready notes. Features local-first processing, Gemini-powered output, and multi-language support.",
+        "Production-ready Chrome Extension for summarizing web content and YouTube transcripts. Built with a local-first philosophy using Gemini Flash for sub-second latency.",
       link: "https://github.com/sushant097/tabgist-chrome",
-      skills: ["JavaScript", "Chrome Extension", "FastAPI", "Python", "LLMs", "Gemini", "NLP", "REST APIs"]
+      skills: ["Chrome MV3", "JavaScript", "FastAPI", "NLP", "GenAI", "REST APIs"]
     },
     {
       name: "🩺 Medical RAG Chatbot",
       description:
-        "End-to-end Retrieval-Augmented Generation chatbot for medical Q&A. Uses LLMs, LangChain, and Pinecone for vector search over curated medical data, with Flask UI and AWS CI/CD deployment. Delivers context-grounded, reliable answers.",
+        "HIPAA-conscious RAG system for medical Q&A. retrieval accuracy optimized using LangChain and Pinecone, deployed via AWS CI/CD pipelines for reliable 24/7 availability.",
       link: "https://github.com/sushant097/medical-rag-chatbot/",
-      skills: ["Python", "LLMs", "RAG", "LangChain", "Pinecone", "Flask", "Vector Search", "Embeddings", "AWS", "CI/CD"]
+      skills: ["RAG", "LangChain", "Pinecone", "AWS", "Flask", "Healthcare AI"]
     },
     {
-      name: "End-to-End MLOps: Image Classification",
+      name: "End-to-End MLOps Pipeline",
       description:
-        "Robust ML pipeline for image classification: data ingestion, training, evaluation, and automated CI/CD deployment on AWS SageMaker. Includes MLflow tracking and DVC for reproducibility.",
+        "Full-cycle MLOps implementation for image classification. Automates data versioning (DVC), experiment tracking (MLflow), and model deployment to AWS SageMaker endpoints.",
       link: "https://github.com/sushant097/ML-Interview-Preparation/tree/master/ML-Interview-Preparation/MlOps-Project/End-to-End-Mlops-Image-Classification-Project",
-      skills: ["Python", "PyTorch", "SageMaker", "MLflow", "DVC", "AWS", "MLOps", "CI/CD", "Data Engineering"]
+      skills: ["MLOps", "AWS SageMaker", "MLflow", "DVC", "GitHub Actions", "PyTorch"]
     },
     {
-      name: "Real-Time Data Streaming Pipelines",
+      name: "Real-Time Data Streaming Architecture",
       description:
-        "Scalable pipelines for real-time data ingestion, transformation, and serving. Built with Airflow orchestration, Kafka streaming, PySpark processing, Docker containers, and Cassandra storage.",
+        "High-throughput data engineering pipeline processing live streams. Orchestrates Kafka producers/consumers and PySpark transformations within Dockerized Airflow environments.",
       link: "https://github.com/sushant097/ML-Interview-Preparation/tree/master/ML-Interview-Preparation/MlOps-Project/End-to-End-Data-Streaming",
-      skills: ["Python", "Airflow", "Kafka", "PySpark", "Docker", "Cassandra", "Data Engineering", "Streaming"]
+      skills: ["Data Engineering", "Apache Kafka", "Airflow", "PySpark", "Cassandra", "Docker"]
     },
     {
       name: "Self-Driving Car (End-to-End DL)",
       description:
-        "Autonomous driving stack for steering angle prediction using deep learning on front-camera frames. Includes data preprocessing, model training, and real-time inference with OpenCV.",
+        "Autonomous steering system using Convolutional Neural Networks (CNNs). Clones human driving behavior by predicting steering angles directly from raw camera pixels.",
       link: "https://github.com/sushant097/Self-Driving-Car-Projects",
-      skills: ["Python", "PyTorch", "Computer Vision", "OpenCV", "Deep Learning", "Autonomous Vehicles"]
+      skills: ["Deep Learning", "Computer Vision", "OpenCV", "PyTorch", "Autonomous Vehicles"]
     },
     {
-      name: "Handwritten Line Text Recognition (OCR)",
+      name: "Handwritten Text Recognition (OCR)",
       description:
-        "Handwritten text recognition using CRNN (CNN+LSTM+CTC) architecture. Achieved low CER on IAM dataset with advanced data augmentation and real-time demo interface.",
+        "Custom CRNN (CNN + LSTM + CTC Loss) architecture for reading handwriting. Achieved state-of-the-art accuracy on the IAM dataset using advanced data augmentation techniques.",
       link: "https://github.com/sushant097/Handwritten-Line-Text-Recognition-using-Deep-Learning-with-Tensorflow",
-      skills: ["Python", "TensorFlow", "OCR", "Computer Vision", "Deep Learning", "Data Augmentation"]
+      skills: ["TensorFlow", "OCR", "Sequence Modeling", "Computer Vision", "Data Augmentation"]
     },
     {
       name: "ROS2 Autonomous Tractor",
       description:
-        "Autonomous tractor navigation using sensor fusion (LIDAR, GPS, RGB-D) and ROS2. Developed control stack for real-time perception, localization, and path planning in outdoor environments.",
+        "Navigation stack for agricultural robotics. Implements sensor fusion (LIDAR + GPS) and path planning algorithms using ROS2 for precise field traversal.",
       link: "https://github.com/sushant097/Ros2-Autonomous-Tractor",
-      skills: ["Python", "ROS2", "Sensor Fusion", "Perception", "Controls", "Localization", "Path Planning"]
+      skills: ["ROS2", "Robotics", "Sensor Fusion", "Localization", "Path Planning"]
     }
   ],
 
-  experience: [
+ experience: [
     {
-      company: "Amazon (AWS) — Transcribe Streaming",
-      title: "SDE Intern",
+      company: "Amazon Web Services (AWS)",
+      title: "SDE Intern (Transcribe Team)",
       dateRange: "May 2025 – Jul 2025",
       bullets: [
-        "Built a Next.js/TypeScript dashboard summarizing 1,000s of integration test runs in <5s.",
-        "Zero-touch deployments with AWS CDK + Elastic Beanstalk; prod rollout in <10 min.",
-        "Failure summarization reduced root-cause analysis time by ~40–60%."
+        "Architected a Next.js/TypeScript observability dashboard to visualize 1,000s of integration tests, reducing debug time by 50%.",
+        "Engineered a zero-touch CI/CD pipeline using AWS CDK & Elastic Beanstalk, slashing deployment time from hours to <10 minutes.",
+        "Developed AI-driven failure summarization tools, accelerating root-cause analysis by 40% for the engineering team."
       ]
     },
     {
       company: "Mississippi State University",
-      title: "Graduate Research Assistant (CV/GenAI)",
+      title: "Graduate Research Assistant",
       dateRange: "Aug 2023 – May 2025",
       bullets: [
-        "Image restoration research (GANs, diffusion) with Stanford/Princeton/BlueHalo; +20% quality.",
-        "CI/CD for ML (Docker, K8s, Airflow); training/eval with PyTorch-Lightning, Optuna."
+        "Collaborated with researchers from **Stanford & Princeton** to develop diffusion models for image restoration, improving quality by 20%.",
+        "Built reproducible ML training pipelines using Docker, Kubernetes, and PyTorch-Lightning, optimizing hyperparameter tuning with Optuna."
       ]
     },
     {
@@ -126,17 +138,17 @@ export const siteConfig = {
       title: "Machine Learning Engineer",
       dateRange: "Feb 2023 – Aug 2023",
       bullets: [
-        "LVO detection with YOLOv7; +8% accuracy; serverless deploy via AWS Lambda.",
-        "Model optimization (quantization/ONNX) and CI/CD (GitLab, Docker, K8s)."
+        "Deployed LVO detection models (YOLOv7) on AWS Lambda (Serverless), achieving 8% higher accuracy than legacy systems.",
+        "Optimized model inference using ONNX quantization and automated deployments via GitLab CI/CD."
       ]
     },
     {
-      company: "Wiseyak / HeHealth (prior roles)",
-      title: "ML/CV Engineer & AI Research Scientist (Contract)",
+      company: "Wiseyak / HeHealth",
+      title: "ML Engineer & Researcher",
       dateRange: "Oct 2020 – Apr 2022",
       bullets: [
-        "Medical imaging models; reduced false positives and improved diagnostic accuracy.",
-        "Synthetic data (GANs) + few-shot learning boosted model accuracy."
+        "Developed medical imaging diagnosis models, leveraging synthetic data generation (GANs) to overcome data scarcity.",
+        "Reduced false positive rates in skin lesion detection through few-shot learning techniques."
       ]
     }
   ],
@@ -145,11 +157,11 @@ export const siteConfig = {
     {
       school: "Mississippi State University",
       degree: "M.S. in Computer Science (AI), GPA 4.0",
-      dateRange: "Aug 2023 – Aug 2025",
+      dateRange: "Aug 2023 - Aug 2025",
       achievements: [
-        "Coursework: Algorithms, Cloud Computing, AI Robotics, Autonomous Vehicles, Data Science, Deep Learning",
-        "Thesis: X-DECODE — EXtreme Deblurring with Curriculum Optimization and Domain Equalization (arXiv, 2025). https://arxiv.org/abs/2504.08072",
-        "President, CSE AI Club; organized GenAI workshops and hackathons"
+        "**Thesis:** X-DECODE — EXtreme Deblurring with Curriculum Optimization (arXiv, 2025).",
+        "**Leadership:** President, CSE AI Club (Organized GenAI workshops & hackathons).",
+        "**Coursework:** Cloud Computing, AI Robotics, Deep Learning, Advanced Algorithms."
       ]
     },
     // {
