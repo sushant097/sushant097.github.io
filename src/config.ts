@@ -24,13 +24,13 @@ export const siteConfig = {
     "MLOps", "LLMOps", "Docker", "Kubernetes", "MLflow", "DVC", "Airflow", "CI/CD",
     
     // Cloud & Infrastructure
-    "AWS", "SageMaker", "AWS CDK", "GCP", "Linux", "Terraform",
+    "AWS", "SageMaker", "AWS CDK", "GCP", "BASH", "Terraform",
     
     // Languages & Backend
     "Python", "FastAPI", "SQL", "TypeScript", "Next.js", "C++", "CUDA",
     
     // Data & Tools
-    "Data Engineering", "Kafka", "PySpark", "Git", "Vector Databases", "Prometheus"
+    "Data Engineering", "Kafka", "PySpark", "Git", "Vector Databases", "Prometheus", "Grafana"
   ],
 
   projects: [
